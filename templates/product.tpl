@@ -6,6 +6,7 @@
 
 {% set carrinho_vazio = cart.items_count == 0 %}
 
+
 <div class="row-fluid container-wide producto container-xs m-section-half">
     <div class="js-product-breadcrumbs-container span12">
         {% snipplet "breadcrumbs.tpl" %}

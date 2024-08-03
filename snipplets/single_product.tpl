@@ -5,6 +5,7 @@
 
 {% set use_custom_grid = settings.grid_columns_desktop == '3' %}
 
+
 {% set has_color_variant = false %}
 {% if settings.product_color_variants %}
     {% for variation in product.variations if variation.name in ['Color', 'Cor'] and variation.options | length > 1 %}

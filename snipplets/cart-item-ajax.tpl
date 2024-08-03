@@ -6,7 +6,6 @@
 	{% set compare_at_price = item.product.compare_at_price %}
 
 
-
 	{# Cart item image #}
 	<div class="ajax-cart-item-image-col ajax-cart-item-col">
 		<img src="{{ item.featured_image | product_image_url('medium') }}" />
