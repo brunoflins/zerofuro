@@ -1,0 +1,11 @@
+<button type="button" class="js-cart-quantity-btn cart-quantity-btn" onclick="LS.minusQuantity({{ item.id }})">
+    <div class="cart-quantity-svg-icon svg-icon-text">
+        {% include "snipplets/svg/minus.tpl" %}
+    </div>
+</button>
+
+<button type="button" class="js-cart-quantity-btn cart-quantity-btn ajax-cart-quantity-btn" onclick="LS.plusQuantity({{ item.id }}, true)" data-component="quantity.plus">
+    <div class="cart-quantity-svg-icon svg-icon-text">
+        {% include "snipplets/svg/plus.tpl" %}
+    </div>
+</button>
